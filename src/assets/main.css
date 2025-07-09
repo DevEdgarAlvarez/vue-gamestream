@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #333;
+  --color-background-primary: #21cab6;
+  --color-background-secondary: #3ac1f7;
+}
+
+html {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--color-primary);
+  font-family: "Inter", serif;
+  color: var(--color-secondary);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Syne", serif;
+}
